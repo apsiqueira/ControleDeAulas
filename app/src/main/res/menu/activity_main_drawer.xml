@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_segunda"
+            android:icon="@drawable/dias"
+            android:title="@string/segunda" />
+        <item
+            android:id="@+id/nav_terca"
+            android:icon="@drawable/dias"
+            android:title="@string/terca" />
+        <item
+            android:id="@+id/nav_quarta"
+            android:icon="@drawable/dias"
+            android:title="@string/quarta" />
+        <item
+        android:id="@+id/nav_quinta"
+            android:icon="@drawable/dias"
+        android:title="@string/quinta" />
+        <item
+            android:id="@+id/nav_sexta"
+            android:icon="@drawable/dias"
+            android:title="@string/sexta" />
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/compartilhar"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/compartilhar" />
+            <item
+                android:id="@+id/enviar"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/enviarEmail" />
+        </menu>
+    </item>
+
+</menu>
